@@ -1,0 +1,58 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: lightgray;
+}
+
+#big-box {
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    background-color: lightgray;
+}
+
+.grey-box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: gray;
+}
+
+.small-box {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    background-color: black;
+}
+/*
+* {
+    border: 3px solid darkblue;
+}*/
+
+body {
+    margin: 0;
+}
+/*
+div {
+    border: 3px solid darkblue;
+}*/
+/*
+.dwa {
+    border: 3px solid darkblue;
+}*/
+/*
+#jeden {
+    border: 3px solid darkblue;
+}*/
+/*
+#big-box > div {
+    border: 3px solid darkblue;
+}*/
+/*
+#big-box div {
+    border: 3px solid darkblue;
+}*/
+.trzy + div {
+    border: 3px solid darkblue;
+}
