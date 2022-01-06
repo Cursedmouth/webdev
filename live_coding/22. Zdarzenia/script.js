@@ -1,11 +1,9 @@
 function fun1() {
     console.log('Przycisk 1 został kliknięty');
-
 }
 
 function fun2() {
     console.log('Przycisk 2 zotał klikniety');
-
 }
 
 function fun3() {
@@ -16,7 +14,6 @@ window.onload = function () {
     document.getElementById('przycisk2').onclick = fun2;
     document.getElementById('przycisk3').addEventListener('click', fun3);
 
-
     let clickCounter =0;
     let dblClickCounter =0;
     let keyDownCounter =0;
@@ -26,15 +23,15 @@ window.onload = function () {
     });
 
     document.addEventListener('dblclick', function () {
-        document.getElementById('double-click-counter').textContent = ++doubleClickCounter;
+        document.getElementById('double-click-counter').textContent = ++dblClickCounter;
     });
 
     document.addEventListener('keydown', function () {
         document.getElementById('Key-down-counter').textContent = ++keyDownCounter;
-
     });
 
     let boxCounter = 0;
+
     document.getElementById('add-element').addEventListener('click', function() {
         boxCounter++;
         let newElement = document.createElement('div');
@@ -48,7 +45,7 @@ window.onload = function () {
             this.removeChild((e.target));
         }
     });
-/// coś jest źle
+
     document.addEventListener('click', function (e) {
         let newElement = document.createElement('div');
         newElement.style.width = '5px';
